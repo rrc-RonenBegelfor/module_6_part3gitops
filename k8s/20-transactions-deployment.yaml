@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: transactions
-          image: ghcr.io/rrc-ronenbegelfor/module_6_part3-transactions:b3fefa9d57fe6a23afff0ca99e47071863d2a9de
+          image: ghcr.io/rrc-ronenbegelfor/module_6_part3-transactions:6d1884795b57301eaf893fde1e21b0f33566e955
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
